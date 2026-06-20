@@ -32,3 +32,24 @@ clf.fit(X_train, y_train)
 # mostrar desempenho
 y_prediction = clf.predict(X_test)
 print("Acurácia:", accuracy_score(y_test, y_prediction))
+
+# mostrar classificação
+entrada_horas_suporte_por_semana = int(input('Digite horas de suporte por semana (20h semanais ou 40h semanais): '))
+
+entrada_desempenho_academico = int(input('Digite desempenho academico (45 a 85): '))
+
+entrada_turno_academico = int(input('Digite o turno academico (1 = Manhã ou 2 = Manhã e Tarde): '))
+
+entrada_plano_individualizado = int(input('Possui plano individualizado (Sim = 0 / Não = 1): '))
+if entrada_plano_individualizado == 1:
+    plano_individualizado_Sim = 1
+    plano_individualizado_Nao = 0
+else:
+    plano_individualizado_Sim = 0
+    plano_individualizado_Nao = 1
+
+df_para_classificar = pd.DataFrame(
+      [[entrada_horas_suporte_por_semana, entrada_desempenho_academico, entrada_turno_academico, plano_individualizado_Nao, plano_individualizado_Sim]], columns=
+       ['horas_suporte_por_semana', 'desempenho_academico', 'turno_academico', 'plano_individualizado_Não', 'plano_individualizado_Sim'])
+y_prediction = clf.predict(df_para_classificar)
+print("O Tratamento do aluno vai ser: ", y_prediction)
