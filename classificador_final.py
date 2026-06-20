@@ -53,3 +53,10 @@ df_para_classificar = pd.DataFrame(
        ['horas_suporte_por_semana', 'desempenho_academico', 'turno_academico', 'plano_individualizado_Não', 'plano_individualizado_Sim'])
 y_prediction = clf.predict(df_para_classificar)
 print("O Tratamento do aluno vai ser: ", y_prediction)
+
+# arvore de decisão
+data_feature_names = X.columns
+data_class_names = y.unique()
+tree.plot_tree(clf, feature_names = data_feature_names,
+               class_names = data_class_names, filled = True)
+plt.show()
