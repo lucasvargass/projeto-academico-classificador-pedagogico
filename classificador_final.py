@@ -28,3 +28,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # aprendizado
 clf = tree.DecisionTreeClassifier()
 clf.fit(X_train, y_train)
+
+# mostrar desempenho
+y_prediction = clf.predict(X_test)
+print("Acurácia:", accuracy_score(y_test, y_prediction))
