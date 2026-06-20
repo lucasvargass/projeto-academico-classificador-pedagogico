@@ -13,3 +13,8 @@ del df['idade']
 del df['sexo']
 del df['escola']
 del df['categoria_diagnostico']
+
+#limpeza de dados
+df = pd.get_dummies(df, columns=['plano_individualizado'], dtype=int)
+
+df.info()
