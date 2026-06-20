@@ -18,3 +18,9 @@ del df['categoria_diagnostico']
 df = pd.get_dummies(df, columns=['plano_individualizado'], dtype=int)
 
 df.info()
+
+# definição dos dados de entrada X, de saída y, de treinamento e de teste
+X = df.drop('nivel_suporte', axis=1)
+y = df['nivel_suporte']
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size = 0.3, random_state = 1)
