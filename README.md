@@ -146,13 +146,13 @@ A variável `horas_suporte_por_semana` se mostrou o critério mais determinante 
 <div align="center">
   <p><em>Figura 1 — Árvore de Decisão treinada com os dados de educação especial de São Gonçalo</em></p>
   <img width="579" height="382" alt="image" src="https://github.com/user-attachments/assets/0878a2d1-aaa0-4d00-98b9-7369988896c5" />
-  <p><em>===============================================================================</em></p>
+  <p><em>============================================================================</em></p>
 </div>
 
 <div align="center">
   <p><em>Figura 2 — Execução do programa: classificação interativa a partir de dados inseridos pelo usuário</em></p>
   <img width="385" height="502" alt="image" src="https://github.com/user-attachments/assets/157a45cc-47e2-4864-9670-6983f57428be" />
-  <p><em>===============================================================================</em></p>
+  <p><em>============================================================================</em></p>
 </div>
 
 ### 🚢 Comparativo com o projeto do colega de equipe
@@ -162,13 +162,13 @@ Como parte do mesmo trabalho de extensão, o colega Leandro Ferreira aplicou o m
 <div align="center">
   <p><em>Figura 3 — Árvore de Decisão do projeto do Colega (Lotus Agência Marítima LTDA)</em></p>
   <img width="628" height="393" alt="image" src="https://github.com/user-attachments/assets/bf296c59-5ffe-422c-bfe9-14a2e7818498" />
-  <p><em>===============================================================================</em></p>
+  <p><em>============================================================================</em></p>
 </div>
 
 <div align="center">
   <p><em>Figura 2 — Execução do programa: classificação interativa a partir de dados inseridos pelo usuário</em></p>
   <img width="406" height="376" alt="image" src="https://github.com/user-attachments/assets/7f0b290f-f59a-4353-a70b-ea4c37409c47" />
-  <p><em>===============================================================================</em></p>
+  <p><em>============================================================================</em></p>
 </div>
 
 ## 📁 Estrutura do Repositório
