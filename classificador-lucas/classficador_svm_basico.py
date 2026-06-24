@@ -11,6 +11,7 @@ del df['estudante_id']
 del df['estudante_nome']
 del df['idade']
 
+
 # reformatação e limpeza
 df['sexo'].unique()
 
